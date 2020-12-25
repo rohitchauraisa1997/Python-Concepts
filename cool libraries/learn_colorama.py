@@ -9,4 +9,5 @@ print("hello")
 print(Back.WHITE + 'white')
 
 print(Fore.RED + Back.GREEN + "red text on green background")
+# available in python3.6+
 print(f"{Fore.CYAN}{Back.WHITE}{Style.DIM}   Cyan Text - White Background - Dim")
